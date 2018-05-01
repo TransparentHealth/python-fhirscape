@@ -9,7 +9,7 @@ CSV to disk.  Here is the example usage:
 
 
 
-    >python fhhir_validate.py pde.json
+    python fhhir_validate.py pde.json
 
 Produces the output:
 
@@ -24,7 +24,7 @@ Produces the output:
 Lets print the CSV output:
 
 
-     >cat pde.json.csv
+     cat pde.json.csv
      severity,code,diagnostics,location
      error,processing,"Profile http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit, Element 'ExplanationOfBenefit.item.detail.sequence': minimum required = 1, but only found 0",ExplanationOfBenefit.item.detail
 
@@ -35,7 +35,7 @@ Another tool `fhir_eob_stats.py` is designed to provide  information about the c
  
      >python fhir_eob_stats.py pde.json
 
-Ant the output is:
+And the output is:
 
 
 
